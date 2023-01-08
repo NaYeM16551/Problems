@@ -219,11 +219,49 @@ vector<int> printFirstNegativeInteger(int arr[], int n,  int k)
     return ans;
 
 }
+string largestNumberCombinationOfArray(string s)
+{
+    for(int i=0;i<s.length();++i)
+    {
+        for(int j=i+1;j<s.length();++j)
+        {
+            if(stoi(to_string(s[j])+ to_string(s[i]))> stoi(to_string(s[i])+ to_string(s[j])))
+                swap(s[i],s[j]);
+        }
+
+    }
+    return s;
+
+
+
+}
+string findLargest(int N, int S){
+    if(S==0 && N>1)
+        return "-1";
+    string ans;
+    while(ans.length()<N)
+    {
+        if(S>9)
+        {
+            ans+="9";
+            S-=9;
+        }
+        else
+        {
+           ans+= to_string(S);
+           S=0;
+        }
+
+
+    }
+    return S==0 ? ans :"-1";
+}
+
 
 
 int main() {
-   string s="N";
-   cout<<s[1]<<endl;
+  string ans= findLargest(3,20);
+  cout<<ans<<endl;
 
 }
 
