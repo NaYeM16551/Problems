@@ -1,0 +1,8 @@
+F:/C++ Projects/C++_CLion/ForTesting/cmake-build-debug/CMakeFiles/A5_0.dir
+F:/C++ Projects/C++_CLion/ForTesting/cmake-build-debug/CMakeFiles/A0_0.dir
+F:/C++ Projects/C++_CLion/ForTesting/cmake-build-debug/CMakeFiles/A4.dir
+F:/C++ Projects/C++_CLion/ForTesting/cmake-build-debug/CMakeFiles/A3_0.dir
+F:/C++ Projects/C++_CLion/ForTesting/cmake-build-debug/CMakeFiles/A1_0.dir
+F:/C++ Projects/C++_CLion/ForTesting/cmake-build-debug/CMakeFiles/A2_0.dir
+F:/C++ Projects/C++_CLion/ForTesting/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/C++ Projects/C++_CLion/ForTesting/cmake-build-debug/CMakeFiles/rebuild_cache.dir

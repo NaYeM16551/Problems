@@ -2,6 +2,7 @@
 
 using namespace std;
 
+
 bool IsSorted_Array(int Arr[], int size) {
 
     if (size == 1 || size == 0)
@@ -271,6 +272,23 @@ void solve_permutationOfString(string &str,vector<string> &ans,int index)
     }
 
 }
+auto numberOfSteps=0;//require pow(2,n)-1 steps
+
+
+long long toh(int N, char from, char to, char aux) {
+    // Your code here
+     numberOfSteps++;
+    if(N==1)
+    {
+        cout<<"move disk 1 from rod "<<from<<" to rod "<<to<<endl;
+        //return  numberOfSteps;
+        return 0;
+    }
+    toh(N-1,from,aux,to);
+    cout<<"move disk " <<N<<" from rod "<<from<<" to rod "<<to<<endl;
+    toh(N-1,aux,to,from);
+    return  numberOfSteps;
+}
 vector<string> permutationOfString(string &&str)
 {
     vector<string> ans;
@@ -285,21 +303,7 @@ vector<string> permutationOfString(string &&str)
 int main() {
 
 
-    int Arr[] = {11, 2, 30, 4, 6, 5, 7, 8, 9, 10};
-    int arr[] = {1,2};
-    int size = sizeof(Arr) / sizeof(Arr[0]);
-    vector<int> num;
-    vector<string> ans;
-    for (auto i = arr; i != end(arr); ++i) {
-        num.push_back(*i);
-    }
-    //sort(num.begin(),num.end());
-    ans = permutationOfString("nayem");
-
-    for (const auto i: ans) {
-         cout<<i<<" ";
-        cout << endl;
-    }
+    cout<<toh(5,'A','C','B')<<endl;
 
 
 

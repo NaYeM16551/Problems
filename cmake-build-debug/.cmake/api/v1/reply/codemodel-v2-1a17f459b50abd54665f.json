@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ForTesting",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "A0_0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-A0_0-Debug-350b6b65ce140be847f9.json",
+					"name" : "A0_0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "A1_0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-A1_0-Debug-28e8e6567af9ffd50bef.json",
+					"name" : "A1_0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "A2_0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-A2_0-Debug-3a634ecad6c50e8b37af.json",
+					"name" : "A2_0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "A3_0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-A3_0-Debug-f193c91819349bcb54db.json",
+					"name" : "A3_0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "A4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-A4-Debug-9b60b87df055422fd318.json",
+					"name" : "A4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "A5_0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-A5_0-Debug-d9652c651806f28640f2.json",
+					"name" : "A5_0",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/C++ Projects/C++_CLion/ForTesting/cmake-build-debug",
+		"source" : "F:/C++ Projects/C++_CLion/ForTesting"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
