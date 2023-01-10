@@ -264,6 +264,25 @@ int pickFindingUsingBS(int *arr, int n) {
 
 
 }
+char* reverse(char *S, int len)
+{
+    //code here
+    stack<char> s;
+    for(int i=0;i<len;++i)
+    {
+        s.push(S[i]);
+
+    }
+    int i=0;
+    while(!s.empty())
+    {
+        char c=s.top();
+        s.pop();
+        S[i++]=c;
+
+    }
+    return S;
+}
 
 vector<int> leaders(int arr[], int n) {
 
@@ -286,11 +305,7 @@ vector<int> leaders(int arr[], int n) {
 
 
 int main() {
-    int arr[5] = {1, 2, 3, 4, 0};
-    vector<int> ans = leaders(arr, 5);
-    for (auto i: ans)
-        cout << i << " ";
-    cout << endl;
+
 
 }
 
