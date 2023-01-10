@@ -302,9 +302,38 @@ vector<int> leaders(int arr[], int n) {
     return ans;
 
 }
+void merge(int *arr1,int*arr2,int m,int n)
+{
+    int j=0,i=m-1;
+    while(i>=0 && j<n)
+    {
+        if(arr1[i]> arr2[j])
+        {
+            swap(arr1[i],arr2[j]);
+            i--;
+            j++;
+        }
+        else
+            break;
+    }
+    sort(arr1,arr1+m);
+    sort(arr2,arr2+n);
+
+
+}
 
 
 int main() {
+    int arr[3]={1,3,6};
+    int arr2[5]={2,4,5,7,8};
+    merge(arr,arr2,3,5);
+    for(int i :arr)
+        cout<<i<<" ";
+    cout<<endl;
+    for(int i :arr2)
+        cout<<i<<" ";
+    cout<<endl;
+
 
 
 }
