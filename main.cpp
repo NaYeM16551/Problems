@@ -1,4 +1,5 @@
 #include "bits/stdc++.h"
+#define watch(x) cerr << "\n" << (#x) << " is " << (x) << endl;
 
 using namespace std;
 
@@ -322,21 +323,24 @@ void merge(int *arr1,int*arr2,int m,int n)
 
 }
 
-
-int main() {
-    int arr[3]={1,3,6};
-    int arr2[5]={2,4,5,7,8};
-    merge(arr,arr2,3,5);
-    for(int i :arr)
-        cout<<i<<" ";
-    cout<<endl;
-    for(int i :arr2)
-        cout<<i<<" ";
-    cout<<endl;
-
+//swapping x+=y-(y=x);
+auto divide(int a,int b)
+{
+    if(!b)
+    {
+        cerr<<"Divisoion by zero"<<endl;
+        return -1.2;
+    }
+    watch(a);
+    return (double ) a/b;
 
 
 }
+
+int main() {
+
+}
+
 
 
 
